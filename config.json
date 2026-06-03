@@ -1,8 +1,8 @@
 {
   "settings": {
-    "port": 443,
-    "redirport": 80,
-    "tlsoffload": false,
+    "port": 3000,
+    "redirport": -1,
+    "tlsoffload": true,
     "cert": "meshcentral-server-t8pw.onrender.com"
   },
   "domains": {
