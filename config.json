@@ -1,0 +1,12 @@
+{
+  "settings": {
+    "port": 3000,
+    "redirport": -1,
+    "tlsoffload": true
+  },
+  "domains": {
+    "": {
+      "title": "My Mesh Server"
+    }
+  }
+}
