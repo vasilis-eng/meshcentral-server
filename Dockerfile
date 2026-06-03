@@ -3,5 +3,5 @@ WORKDIR /app
 RUN npm install meshcentral
 RUN mkdir -p meshcentral-data
 COPY config.json meshcentral-data/config.json
-EXPOSE 443
+EXPOSE 3000
 CMD ["node", "node_modules/meshcentral/meshcentral.js"]
