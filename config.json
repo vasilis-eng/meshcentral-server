@@ -2,7 +2,9 @@
   "settings": {
     "port": 3000,
     "redirport": -1,
-    "tlsoffload": true
+    "tlsoffload": true,
+    "allowLoginToken": true,
+    "cert": "meshcentral-server-t8pw.onrender.com"
   },
   "domains": {
     "": {
